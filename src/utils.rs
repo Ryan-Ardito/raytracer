@@ -1,5 +1,5 @@
 #![allow(dead_code)]
-use crate::vec3::{self, Point3, Color, Vec3};
+use crate::vec3::{self, Point3, Color};
 use crate::ray::Ray;
 use crate::hittable::Hittable;
 

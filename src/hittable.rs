@@ -1,4 +1,4 @@
-#[allow(dead_code)]
+#![allow(dead_code)]
 
 use std::sync::Arc;
 use crate::vec3::{self, Point3, Vec3};

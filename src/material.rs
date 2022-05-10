@@ -1,4 +1,3 @@
-use crate::utils;
 use crate::vec3::{self, Color, Vec3};
 use crate::hittable::HitRecord;
 use crate::ray::Ray;
