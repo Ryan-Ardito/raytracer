@@ -25,7 +25,9 @@ impl Vec3 {
         }
     }
 
-    pub fn negative(&self) -> Vec3 { Vec3::new(-self.x, -self.y, -self.z) }
+    pub fn negative(&self) -> Vec3 {
+        Vec3::new(-self.x, -self.y, -self.z)
+    }
 
     pub fn length(&self) -> f64 {
         f64::sqrt(self.length_squared())
@@ -46,7 +48,9 @@ impl Vec3 {
     pub fn random_in_unit_sphere() -> Vec3 {
         loop {
             let p = Vec3::random_bound(-1.0, 1.0);
-            if p.length_squared() >= 1.0 { continue; }
+            if p.length_squared() >= 1.0 {
+                continue;
+            }
             return p;
         }
     }
