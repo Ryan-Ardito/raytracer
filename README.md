@@ -2,4 +2,4 @@
 ```bash
 cargo run --release > image.ppm
 ```
-![image info](./image.png)
+![render](./image.png)
